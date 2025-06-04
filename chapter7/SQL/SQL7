@@ -1,0 +1,1 @@
+SELECT * FROM school.student WHERE id > 2000 AND id <=3001;

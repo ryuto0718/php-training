@@ -1,0 +1,1 @@
+SELECT * FROM school.student WHERE grade = 1 OR grade =3;

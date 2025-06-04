@@ -1,0 +1,19 @@
+#schoolデータベースがあれば削除する
+DROP DATABASE IF EXISTS school;
+#データベースschoolを作成する。
+CREATE DATABASE school;
+#データベースをschoolに切り替える
+USE school;
+#テーブルstudentを作成する。
+CREATE TABLE student(
+    id		INT PRIMARY KEY,
+    name	VARCHAR(128),
+    grade	INT
+);
+#データの挿入
+INSERT INTO student (id, name,grade) VALUES(1001, '山田太郎',1);
+INSERT INTO student (id, name,grade) VALUES(1002, '児玉雄太',1);
+INSERT INTO student (id, name,grade) VALUES(2001, '太田隆',2);
+INSERT INTO student (id, name,grade) VALUES(2002, '佐藤元',2);
+INSERT INTO student (id, name,grade) VALUES(3001, '林敦子',3);
+INSERT INTO student (id, name,grade) VALUES(3002, '市川次郎',3);

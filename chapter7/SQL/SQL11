@@ -1,0 +1,1 @@
+DELETE FROM school.student WHERE id = 1001;

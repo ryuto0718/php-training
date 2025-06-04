@@ -1,0 +1,1 @@
+SELECT name FROM school.student WHERE name <> "山田太郎";

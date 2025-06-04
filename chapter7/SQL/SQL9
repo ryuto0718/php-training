@@ -1,0 +1,1 @@
+UPDATE school.student SET name="山口太郎" WHERE id=1001;

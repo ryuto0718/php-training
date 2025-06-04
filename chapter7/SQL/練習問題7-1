@@ -1,0 +1,4 @@
+(1)SELECT * FROM school.student;
+(2)SELECT id,name FROM school.student WHERE grade = 2;
+(3)SELECT name FROM student WHERE id <> 2002;
+(4)SELECT grade,name FROM student WHERE id = 2001 OR id = 2002;
